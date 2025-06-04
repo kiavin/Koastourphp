@@ -1,0 +1,6 @@
+<?php
+
+$menus = [
+    []
+];
+return $menus;
