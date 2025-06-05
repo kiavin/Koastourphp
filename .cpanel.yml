@@ -1,6 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/urbaxxok/demo.urbanloos.com
-    - rm -rf $DEPLOYPATH/*
-    - cp -R * $DEPLOYPATH
