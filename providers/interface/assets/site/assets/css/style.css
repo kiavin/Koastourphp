@@ -7105,6 +7105,7 @@ ol.wp-block-rss {
 }
 .header-layout1 .menu-area {
   z-index: 0;
+  background-color: #113d48;
 }
 .header-layout1 .currency-menu {
   border: 1px solid var(--light-color);
