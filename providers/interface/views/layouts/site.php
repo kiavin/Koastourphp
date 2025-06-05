@@ -18,7 +18,7 @@ SiteAsset::register($this);
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <?php $this->registerCsrfMetaTags() ?>
-    <title><?= Html::encode($this->title === null ? Yii::$app->name : Yii::$app->name . ' - ' . $this->title) ?></title>
+    <title>koastours</title>
     <?php $this->head() ?>
 </head>
 

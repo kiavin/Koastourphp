@@ -11,7 +11,7 @@ class SiteAsset extends AssetBundle
     public $baseUrl = '@web/providers/interface/assets';
     public $css = [
         [
-            'href' => 'oneui/favicon.png',
+            'href' => 'oneui/logov3.png',
             'rel' => 'icon',
             'sizes' => '64x64',
         ],

@@ -5,7 +5,7 @@ $basePath = \Yii::$app->request->baseUrl . '/providers/interface/assets/site/';
 ?>
 <footer
       class="footer-wrapper bg-title footer-layout2 footer-layout5 "
-      data-bg-src="<?= $basePath ?>assets/img/bg/footer_bg-2.png"
+      
     >
      
       <div class="widget-area">
@@ -16,7 +16,7 @@ $basePath = \Yii::$app->request->baseUrl . '/providers/interface/assets/site/';
                 <div class="th-widget-about">
                   <div class="about-logo">
                     <a href="home-travel.html"
-                      ><img src="<?= $basePath ?>assets/img/bg/logo.svg" style="width:60px; height:60px;" alt="Koas"
+                      ><img src="<?= $basePath ?>assets/img/bg/logov3.png" style="width:80px; height:80px;" alt="Koas"
                     /></a>
                   </div>
                   <p class="about-text">
@@ -27,16 +27,16 @@ $basePath = \Yii::$app->request->baseUrl . '/providers/interface/assets/site/';
                     <!-- <a href="https://www.facebook.com/"
                       ><i class="fab fa-facebook-f"></i
                     ></a> -->
-                    <a href="https://youtube.com/@kifaruoutdooradventuressociety?si=CKaUfjLl-1jIggbP"
+                    <a href="https://youtube.com/@kifaruoutdooradventuressociety?si=CKaUfjLl-1jIggbP" target="_blank"
                       ><i class="fab fa-youtube"></i
                     ></a>
-                    <a href="https://www.linkedin.com/in/kifaru-outdooradventures-19a62b362?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    <a href="https://www.linkedin.com/in/kifaru-outdooradventures-19a62b362?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"
                       ><i class="fab fa-linkedin-in"></i
                     ></a>
                     <!-- <a href="https://www.whatsapp.com/"
                       ><i class="fab fa-twitter"></i
                     ></a> -->
-                    <a href="https://www.instagram.com/kifaru_koas?igsh=MWF0ZDh1bnZqb2tzbQ=="
+                    <a href="https://www.instagram.com/kifaru_koas?igsh=MWF0ZDh1bnZqb2tzbQ==" target="_blank"
                       ><i class="fab fa-instagram"></i
                     ></a>
                   </div>
@@ -67,13 +67,13 @@ $basePath = \Yii::$app->request->baseUrl . '/providers/interface/assets/site/';
                     </div>
                     <div class="details">
                       <p>
-                        <a href="tel:+01234567890" class="info-box_link"
-                          >+01 234 567 890</a
+                        <a href="tel:+254778733757" class="info-box_link"
+                          >+254778733757</a
                         >
                       </p>
                       <p>
-                        <a href="tel:+09876543210" class="info-box_link"
-                          >+09 876 543 210</a
+                        <a href="tel:+254778733757" class="info-box_link"
+                          >+254778733757</a
                         >
                       </p>
                     </div>
@@ -85,16 +85,16 @@ $basePath = \Yii::$app->request->baseUrl . '/providers/interface/assets/site/';
                     <div class="details">
                       <p>
                         <a
-                          href="mailto:mailinfo00@tourm.com"
+                          href="mailto:koastours@gmail.com"
                           class="info-box_link"
-                          >mailinfo00@tourm.com</a
+                          >koastours@tour.com</a
                         >
                       </p>
                       <p>
                         <a
-                          href="mailto:support24@tourm.com"
+                          href="mailto:koastours@gmail.com"
                           class="info-box_link"
-                          >support24@tourm.com</a
+                          >koastours@gmail</a
                         >
                       </p>
                     </div>
@@ -104,7 +104,7 @@ $basePath = \Yii::$app->request->baseUrl . '/providers/interface/assets/site/';
                       <img src="<?= $basePath ?>assets/img/icon/location-dot.svg" alt="img" />
                     </div>
                     <div class="details">
-                      <p>789 Inner Lane, Holy park, California, USA</p>
+                      <p>Tudor, Mombasa, KENYA</p>
                     </div>
                   </div>
                 </div>

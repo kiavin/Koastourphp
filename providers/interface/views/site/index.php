@@ -116,7 +116,7 @@ $basePath = \Yii::$app->request->baseUrl . '/providers/interface/assets/site/';
 <div
   class="about-area position-relative overflow-hidden space"
   id="about-sec"
-  data-bg-src="<?= $basePath ?>assets/img/bg/about_bg_1.jpg">
+  >
   <div class="container">
     <div class="row">
       <div class="col-xl-6">
@@ -209,7 +209,7 @@ $basePath = \Yii::$app->request->baseUrl . '/providers/interface/assets/site/';
 <section
   class="testi-area7 bg-smoke overflow-hidden space"
   id="testi-sec"
-  data-bg-src="<?= $basePath ?>assets/img/bg/map.png">
+  >
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-xl-6">
@@ -257,7 +257,7 @@ $basePath = \Yii::$app->request->baseUrl . '/providers/interface/assets/site/';
 
 <div
   class="space-extra2-top space-extra2-bottom"
-  data-bg-src="<?= $basePath ?>assets/img/bg/video_bg_1.jpg">
+  >
   <div class="container">
     <div
       class="row flex-row-reverse justify-content-center align-items-center">
