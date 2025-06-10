@@ -10,7 +10,7 @@ use app\providers\components\widgets\site\BreadcrumbWidget;
 
 ?>
 <?= BreadcrumbWidget::widget([
-    'title' => 'Support Us',
+    'title' => 'Every youth deserves the chance to thrive',
     'subtitle' => 'Support a youth Today'
 ]) ?>
 <section
@@ -23,7 +23,7 @@ use app\providers\components\widgets\site\BreadcrumbWidget;
         <div class="row">
           <div class="col-lg-7 offset-lg-3">
             <div class="title-area text-center">
-              <span class="sub-title">Immerse Yourself in Nature</span>
+              <!-- <span class="sub-title">Immerse Yourself in Nature</span> -->
               <h2 class="sec-title">Your perfect forest adventure</h2>
               <p class="sec-text">
               Our work is powered by the incredible support of individuals and organizations who believe in empowering immigrant youth. Your contributions, in various forms, create a tangible and lasting impact on their lives, helping them thrive in their new communities.
@@ -112,9 +112,9 @@ use app\providers\components\widgets\site\BreadcrumbWidget;
             <div
                 class="btn-group" style="display:flex; flex-wrap:nowrap;"
                 >
-                <a href="<?= Url::to(['site/index']) ?>" class="th-btn th-icon">Donate Today</a>
-                <a href="<?= Url::to(['site/index']) ?>" class="th-btn th-icon">Become a Volunteer</a>
-                <a href="<?= Url::to(['site/index']) ?>" class="th-btn th-icon">Partner With KOAS</a>
+                <a href="<?= Url::to(['site/donate']) ?>" class="th-btn th-icon">Donate Today</a>
+                <a href="<?= Url::to(['site/volunteer']) ?>" class="th-btn th-icon">Become a Volunteer</a>
+                <a href="<?= Url::to(['site/partner']) ?>" class="th-btn th-icon">Partner With KOAS</a>
               </div>
            
           </div>

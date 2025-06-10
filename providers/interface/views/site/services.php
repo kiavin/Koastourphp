@@ -11,7 +11,7 @@ use app\providers\components\widgets\site\BreadcrumbWidget;
 
 ?>
 <?= BreadcrumbWidget::widget([
-  'title' => 'Services',
+  'title' => 'Nature is our classroom and our playground',
   'subtitle' => 'What we do'
 ]) ?>
 <section
@@ -23,10 +23,9 @@ use app\providers\components\widgets\site\BreadcrumbWidget;
       <div class="col-lg-7 offset-lg-3">
         <div class="title-area text-center">
           <span class="sub-title">Immerse Yourself in Nature</span>
-          <h2 class="sec-title">Your perfect forest adventure</h2>
-          <p class="sec-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          <!-- <h2 class="sec-title">Your perfect forest adventure</h2> -->
+          <p class="sec-text mt-3">
+          From forest hikes to canoe trips, KOAS helps youth experience the outdoors in meaningful ways; often for the first time.
           </p>
 
         </div>
@@ -97,7 +96,7 @@ use app\providers\components\widgets\site\BreadcrumbWidget;
     <div class="col-lg-3 gallery-box_wrapp">
       <div class="gallery-box">
         <div class="gallery-img global-img">
-          <a href="<?= $basePath ?>assets/img/bg/1.jpg" class="popup-image">
+          <a href="<?= $basePath ?>assets/img/bg/8.jpg" class="popup-image">
             <div class="icon-btn">
               <i class="fal fa-magnifying-glass-plus"></i>
             </div>

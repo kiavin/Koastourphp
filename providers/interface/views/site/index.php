@@ -137,7 +137,7 @@ $basePath = \Yii::$app->request->baseUrl . '/providers/interface/assets/site/';
         <div class="ps-xl-5 ms-xl-3">
           <div class="title-area mb-20">
             <span class="sub-title style1">Our Mission</span>
-            <h2 class="sec-title mb-20">Begin Your Travel Story with Us</h2>
+            <h2 class="sec-title mb-20">A healthy Mind in a Healthy Body</h2>
             <p class="sec-text mb-30">
               Our mission is to create a space for immigrant and underprivileged youth to enhance
               their holistic development, foster community cohesion and promote a love for nature

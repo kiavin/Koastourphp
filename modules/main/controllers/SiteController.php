@@ -56,6 +56,17 @@ class SiteController extends \helpers\WebController
     {
         return $this->render('impact');
     }
+    public function actionDonate()
+    {
+        return $this->render('donate');
+    }
+    public function actionVolunteer()
+    {
+        return $this->render('volunteer');
+    } public function actionPartner()
+    {
+        return $this->render('partner');
+    }
     public function actionDocs($mod = 'dashboard')
     {
         //$this->viewPath = '@swagger';

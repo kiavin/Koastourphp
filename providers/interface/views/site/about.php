@@ -7,7 +7,7 @@ $basePath = \Yii::$app->request->baseUrl . '/providers/interface/assets/site/';
 ?>
 
 <?= BreadcrumbWidget::widget([
-  'title' => 'About Us',
+  'title' => '"We foster a sense of shared purpose and family',
   'subtitle' => 'Learn more about our mission'
 ])
 
@@ -17,7 +17,7 @@ $basePath = \Yii::$app->request->baseUrl . '/providers/interface/assets/site/';
     <div class="row gy-3 justify-content-between align-items-center">
       <div class="col-lg-6">
         <div class="title-area">
-          <span class="sub-title style1">Why Choose KOAS</span>
+          <!-- <span class="sub-title style1">Why Choose KOAS</span> -->
           <h2 class="sec-title">Our Core Areas </h2>
         </div>
       </div>
@@ -137,9 +137,9 @@ $basePath = \Yii::$app->request->baseUrl . '/providers/interface/assets/site/';
       <div class="col-xl-6">
         <div class="ps-xl-4">
           <div class="title-area mb-20">
-            <span class="sub-title style1"> Mandate/ Purpose</span>
+            <!-- <span class="sub-title style1">mandate</span> -->
             <h2 class="sec-title mb-20">
-              Learn More About our Mission
+            Mandate
             </h2>
             <p class="sec-text2 mb-50">
               Kifaru Outdoor Adventures exists to create opportunities for immigrant and underprivileged youth to develop holistically in their social, physical, and mental well-being while developing their leadership skills through participation in outdoor nature and nature-based activities. Our activities provide an environment that fosters community cohesion, breaks barriers of access to nature, and promote a love for nature and adventure.

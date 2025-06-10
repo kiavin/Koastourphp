@@ -11,7 +11,7 @@ $basePath = \Yii::$app->request->baseUrl . '/providers/interface/assets/site/';
 
 ?>
 <?= BreadcrumbWidget::widget([
-    'title'=> 'Impact',
+    'title'=> 'Positive role models make all the difference',
     'subtitle' => 'Our Impact'
 ]) ?>
 <section
@@ -46,13 +46,10 @@ $basePath = \Yii::$app->request->baseUrl . '/providers/interface/assets/site/';
                   <div class="testi-grid2">
                     <div class="box-content">
                       <p class="box-text">
-                        “A home that perfectly blends sustainability with luxury
-                        until I discovered Ecoland Residence. From the moment I
-                        stepped into this community, I knew it was where I
-                        wanted to live. The commitment to eco-friendly living”
+                        “KOAS helped me discover who I really am. I never felt so connected to nature and to myself.”
                       </p>
                       <h6 class="box-title">Sarah Rahman</h6>
-                      <span class="box-desig">Traveller</span>
+                      <span class="box-desig">A KOAS youth participant</span>
                       <div class="box-review">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -67,14 +64,10 @@ $basePath = \Yii::$app->request->baseUrl . '/providers/interface/assets/site/';
                   <div class="testi-grid2">
                     <div class="box-content">
                       <p class="box-text">
-                        “The home boasts sleek, contemporary architecture with
-                        clean lines and expansive windows, allowing natural
-                        light to flood the interiors architecture with clean
-                        lines and expansive It incorporates passive design
-                        principles”
+                        “My daughter found mentors and friends at KOAS. She is more confident than ever.”
                       </p>
                       <h6 class="box-title">Angelina Rose</h6>
-                      <span class="box-desig">Traveller</span>
+                      <span class="box-desig">KOAS parent</span>
                       <div class="box-review">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
