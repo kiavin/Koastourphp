@@ -130,7 +130,7 @@ $basePath = \Yii::$app->request->baseUrl . '/providers/interface/assets/site/';
       <div class="col-xl-6">
         <div class="img-box15 pe-xl-4">
           <div class="img1 global-img">
-            <img src="<?= $basePath ?>assets/img/bg/68.jpg" alt="About" />
+            <img src="<?= $basePath ?>assets/img/bg/e.jpg" alt="About" />
           </div>
         </div>
       </div>

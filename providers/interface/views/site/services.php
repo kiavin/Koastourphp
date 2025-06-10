@@ -110,50 +110,24 @@ use app\providers\components\widgets\site\BreadcrumbWidget;
     <div class="col-lg-3 gallery-box_wrapp">
       <div class="gallery-box">
         <div class="gallery-img global-img">
-          <a href="<?= $basePath ?>assets/img/gallery/gallery_2_2.jpg" class="popup-image">
+          <a href="<?= $basePath ?>assets/img/bg/f.jpg" class="popup-image">
             <div class="icon-btn">
               <i class="fal fa-magnifying-glass-plus"></i>
             </div>
             <img
-              src="<?= $basePath ?>assets/img/gallery/gallery_2_2.jpg"
+              src="<?= $basePath ?>assets/img/bg/f.jpg"
               alt="gallery image" />
           </a>
         </div>
       </div>
       <div class="gallery-box">
         <div class="gallery-img global-img">
-          <a href="<?= $basePath ?>assets/img/bg/70.jpg" class="popup-image">
+          <a href="<?= $basePath ?>assets/img/bg/g.jpg" class="popup-image">
             <div class="icon-btn">
               <i class="fal fa-magnifying-glass-plus"></i>
             </div>
             <img
-              src="<?= $basePath ?>assets/img/bg/70.jpg"
-              alt="gallery image" />
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-3 gallery-box_wrapp">
-      <div class="gallery-box">
-        <div class="gallery-img global-img">
-          <a href="<?= $basePath ?>assets/img/bg/71.jpg" class="popup-image">
-            <div class="icon-btn">
-              <i class="fal fa-magnifying-glass-plus"></i>
-            </div>
-            <img
-              src="<?= $basePath ?>assets/img/bg/71.jpg"
-              alt="gallery image" />
-          </a>
-        </div>
-      </div>
-      <div class="gallery-box">
-        <div class="gallery-img global-img">
-          <a href="<?= $basePath ?>assets/img/bg/72.jpg" class="popup-image">
-            <div class="icon-btn">
-              <i class="fal fa-magnifying-glass-plus"></i>
-            </div>
-            <img
-              src="<?= $basePath ?>assets/img/bg/72.jpg"
+              src="<?= $basePath ?>assets/img/bg/g.jpg"
               alt="gallery image" />
           </a>
         </div>
@@ -162,12 +136,38 @@ use app\providers\components\widgets\site\BreadcrumbWidget;
     <div class="col-lg-3 gallery-box_wrapp">
       <div class="gallery-box">
         <div class="gallery-img global-img">
-          <a href="<?= $basePath ?>assets/img/bg/73.jpg" class="popup-image">
+          <a href="<?= $basePath ?>assets/img/bg/h.jpg" class="popup-image">
             <div class="icon-btn">
               <i class="fal fa-magnifying-glass-plus"></i>
             </div>
             <img
-              src="<?= $basePath ?>assets/img/bg/73.jpg"
+              src="<?= $basePath ?>assets/img/bg/h.jpg"
+              alt="gallery image" />
+          </a>
+        </div>
+      </div>
+      <div class="gallery-box">
+        <div class="gallery-img global-img">
+          <a href="<?= $basePath ?>assets/img/bg/i.jpg" class="popup-image">
+            <div class="icon-btn">
+              <i class="fal fa-magnifying-glass-plus"></i>
+            </div>
+            <img
+              src="<?= $basePath ?>assets/img/bg/i.jpg"
+              alt="gallery image" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 gallery-box_wrapp">
+      <div class="gallery-box">
+        <div class="gallery-img global-img">
+          <a href="<?= $basePath ?>assets/img/bg/j.jpg" class="popup-image">
+            <div class="icon-btn">
+              <i class="fal fa-magnifying-glass-plus"></i>
+            </div>
+            <img
+              src="<?= $basePath ?>assets/img/bg/j.jpg"
               alt="gallery image" />
           </a>
         </div>

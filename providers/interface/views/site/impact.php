@@ -24,10 +24,10 @@ $basePath = \Yii::$app->request->baseUrl . '/providers/interface/assets/site/';
           <div class="col-xl-6">
             <div class="testi-image-wrapp">
               <div class="testi-img">
-                <img src="<?= $basePath ?>assets/img/testimonial/testi-img-1.jpg" alt="people" />
+                <img src="<?= $basePath ?>assets/img/bg/k.jpg" alt="people" />
               </div>
               <div class="testi-img style2">
-                <img src="<?= $basePath ?>assets/img/testimonial/testi-img-2.jpg" alt="testimonial" />
+                <img src="<?= $basePath ?>assets/img/bg/l.jpg" alt="testimonial" />
               </div>
             </div>
           </div>

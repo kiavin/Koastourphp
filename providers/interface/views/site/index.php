@@ -45,7 +45,7 @@ $basePath = \Yii::$app->request->baseUrl . '/providers/interface/assets/site/';
         <div class="hero-inner">
           <div
             class="th-hero-bg"
-            data-bg-src="<?= $basePath ?>assets/img/bg/1.jpg"></div>
+            data-bg-src="<?= $basePath ?>assets/img/bg/a.jpg"></div>
           <div class="container">
             <div class="hero-style1">
               <span
@@ -73,7 +73,7 @@ $basePath = \Yii::$app->request->baseUrl . '/providers/interface/assets/site/';
         <div class="hero-inner">
           <div
             class="th-hero-bg"
-            data-bg-src="<?= $basePath ?>assets/img/bg/6.jpg"></div>
+            data-bg-src="<?= $basePath ?>assets/img/bg/o.jpg"></div>
           <div class="container">
             <div class="hero-style1">
               <span
@@ -128,7 +128,7 @@ $basePath = \Yii::$app->request->baseUrl . '/providers/interface/assets/site/';
             <img src="<?= $basePath ?>assets/img/bg/67.jpg" alt="About" />
           </div>
           <div class="img3">
-            <img src="<?= $basePath ?>assets/img/normal/about_6_3.jpg" alt="About" />
+            <img src="<?= $basePath ?>assets/img/bg/d.jpg" alt="About" />
           </div>
         </div>
       </div>
@@ -237,13 +237,13 @@ $basePath = \Yii::$app->request->baseUrl . '/providers/interface/assets/site/';
       <div class="col-xl-6">
         <div class="testi-image-wrapp2">
           <div class="testi-img">
-            <img src="<?= $basePath ?>assets/img/testimonial/testi-img1.jpg" alt="test" />
+            <img src="<?= $basePath ?>assets/img/bg/c.jpg" alt="test" />
           </div>
           <div class="testi-shape2">
             <img src="<?= $basePath ?>assets/img/testimonial/testi_shape_1.png" alt="test1" />
           </div>
           <div class="testi-img2">
-            <img src="<?= $basePath ?>assets/img/testimonial/testi-img2.jpg" alt="test2" />
+            <img src="<?= $basePath ?>assets/img/bg/d.jpg" alt="test2" />
           </div>
           <div class="testi-shape">
             <img src="<?= $basePath ?>assets/img/testimonial/testi_shape_2.png" alt="test3" />

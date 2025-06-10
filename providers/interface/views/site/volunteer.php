@@ -23,7 +23,7 @@ use app\providers\components\widgets\site\BreadcrumbWidget;
     <div class="row justify-content-center">
       <div class="col-xl-6">
         <div class="title-area mb-40">
-          <span class="sub-title">Why Donate</span>
+          <span class="sub-title">Why volunteer</span>
           <h2 class="sec-title">Changing Lives One Donation at a Time</h2>
         </div>
         <div
@@ -51,7 +51,7 @@ use app\providers\components\widgets\site\BreadcrumbWidget;
       <div class="col-xl-6">
         <div class="testi-image-wrapp2">
           <div class="testi-img">
-            <img src="<?= $basePath ?>assets/img/testimonial/testi-img1.jpg" alt="test" />
+            <img src="<?= $basePath ?>assets/img/bg/n.jpg" alt="test" />
           </div>
           <div class="testi-shape2">
             <img src="<?= $basePath ?>assets/img/testimonial/testi_shape_1.png" alt="test1" />

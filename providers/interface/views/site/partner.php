@@ -51,7 +51,7 @@ use app\providers\components\widgets\site\BreadcrumbWidget;
       <div class="col-xl-6">
         <div class="testi-image-wrapp2">
           <div class="testi-img">
-            <img src="<?= $basePath ?>assets/img/testimonial/testi-img1.jpg" alt="test" />
+            <img src="<?= $basePath ?>assets/img/bg/m.jpg" alt="test" />
           </div>
           <div class="testi-shape2">
             <img src="<?= $basePath ?>assets/img/testimonial/testi_shape_1.png" alt="test1" />
