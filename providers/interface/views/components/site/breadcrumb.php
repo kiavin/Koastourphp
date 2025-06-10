@@ -11,7 +11,7 @@ $basePath = \Yii::$app->request->baseUrl . '/providers/interface/assets/site/';
 
     <div class="container">
         <div class="breadcumb-content">
-            <h1 class="breadcumb-title"><?= htmlspecialchars($title) ?></h1>
+            <h1 class="sub-title text-white fs-1 fw-bold"><?= htmlspecialchars($title) ?></h1>
             <ul class="breadcumb-menu">
                 <li><a href="<?= Url::to(['site/index']) ?>">Home</a></li>
                 <li><?= htmlspecialchars($subtitle) ?></li>
