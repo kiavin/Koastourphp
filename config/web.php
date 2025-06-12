@@ -5,6 +5,7 @@ $wrapper = new ConfigWrapper();
 $config = [
     'id' => $_ENV['APP_CODE'],
     'name' => $_ENV['APP_NAME'],
+    // 'developer' => $_ENV['APP_DEVELOPER'],
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'controllerNamespace' => 'main\controllers',

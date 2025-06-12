@@ -66,6 +66,9 @@ class SiteController extends \helpers\WebController
     } public function actionPartner()
     {
         return $this->render('partner');
+    }   public function actionBoard()
+    {
+        return $this->render('board');
     }
     public function actionDocs($mod = 'dashboard')
     {

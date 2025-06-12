@@ -64,8 +64,12 @@ use yii\helpers\Url;
                 <li>
                   <a class="text-white fw-bold fs-5  " href="<?= Url::to(['site/index']) ?>">Home</a>
                 </li>
-                <li>
-                  <a class="text-white fw-bold fs-5 " href="<?= Url::to(['site/about']) ?>">About Us</a>
+                <li class="menu-item-has-children">
+                  <a class="text-white fw-bold fs-5 ">About Us</a>
+                  <ul class="sub-menu">
+                    <li><a href="<?= Url::to(['site/about']) ?>">About Us</a></li>
+                    <li><a href="<?= Url::to(['site/board']) ?>">Our Board</a></li>
+                  </ul>
                 </li>
                 <li>
                   <a class="text-white fw-bold fs-5 " href="<?= Url::to(['site/services']) ?>">What We Do</a>
