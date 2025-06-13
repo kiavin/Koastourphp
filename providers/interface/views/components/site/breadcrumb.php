@@ -7,7 +7,7 @@ $basePath = \Yii::$app->request->baseUrl . '/providers/interface/assets/site/';
 /** @var string $subtitle */
 ?>
 
-<div class="breadcumb-wrapper " data-bg-src="<?= $basePath ?>assets/img/bg/6.jpg">
+<div class="breadcumb-wrapper " data-bg-src="<?= $basePath ?>assets/img/bg/breadcrumb.jpg">
 
     <div class="container">
         <div class="breadcumb-content">

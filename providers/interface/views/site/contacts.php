@@ -73,7 +73,7 @@ use app\providers\components\widgets\site\BreadcrumbWidget;
 
     <div
       class="space-extra2-top space-extra2-bottom"
-      data-bg-src="<?= $basePath?>assets/img/hero/hero_10_3.jpg"
+      data-bg-src="<?= $basePath?>assets/img/bg/tree.jpg"
     >
       <div class="container">
         <div
