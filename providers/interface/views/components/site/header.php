@@ -136,7 +136,13 @@ use yii\helpers\Url;
           <ul>
           
           <li><a class="fw-bolder" href="<?= Url::to(['site/index']) ?>">Home</a></li>
-                <li><a class="fw-bolder" href="<?= Url::to(['site/about']) ?>">About Us</a></li>
+          <li class="menu-item-has-children">
+                  <a class="text-white fw-bold fs-5 ">About Us</a>
+                  <ul class="sub-menu">
+                    <li><a href="<?= Url::to(['site/about']) ?>">About Us</a></li>
+                    <li><a href="<?= Url::to(['site/board']) ?>">Our Board</a></li>
+                  </ul>
+                </li>
                 <li><a class="fw-bolder" href="<?= Url::to(['site/services']) ?>">What We Do</a></li>
                 <li><a class="fw-bolder" href="<?= Url::to(['site/impact']) ?>">Our Impact</a></li>
                 <li><a class="fw-bolder" href="<?= Url::to(['site/contact']) ?>">Contact us</a></li>           
