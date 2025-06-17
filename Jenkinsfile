@@ -12,7 +12,7 @@ pipeline {
     stage('Clone Repo') {
       steps {
         git credentialsId: "${GIT_CREDENTIALS}",
-            url: 'https://github.com/your-username/your-yii2-repo.git',
+            url: 'https://github.com/kiavin/Koastourphp.git',
             branch: 'main'
       }
     }
@@ -36,7 +36,8 @@ pipeline {
           sh """
             ssh ${DEPLOY_HOST} '
               cd ${DEPLOY_PATH} &&
-              php yii migrate --interactive=0 &&
+              composer update
+              php yii voyage --interactive=0 &&
               php yii cache/flush-all
             '
           """
@@ -45,3 +46,4 @@ pipeline {
     }
   }
 }
+
