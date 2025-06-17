@@ -37,7 +37,6 @@ pipeline {
             ssh ${DEPLOY_HOST} '
               cd ${DEPLOY_PATH} &&
               composer install
-              php yii voyage --interactive=0 &&
               php yii cache/flush-all
             '
           """
