@@ -22,8 +22,8 @@ pipeline {
         sshagent(credentials: ['ssh-to-vm2']) {
           sh """
             ssh -o StrictHostKeyChecking=no ${DEPLOY_HOST} '
-              mkdir -p ${DEPLOY_PATH} &&
-              rm -rf ${DEPLOY_PATH}/*'
+              sudo mkdir -p ${DEPLOY_PATH} &&
+              sudo rm -rf ${DEPLOY_PATH}/*'
             rsync -avz --delete ./ ${DEPLOY_HOST}:${DEPLOY_PATH}/
           """
         }
