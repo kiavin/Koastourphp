@@ -24,7 +24,7 @@ pipeline {
             ssh -o StrictHostKeyChecking=no ${DEPLOY_HOST} '
               sudo mkdir -p ${DEPLOY_PATH} &&
               sudo rm -rf ${DEPLOY_PATH}/*'
-            rsync -avz --delete ./ ${DEPLOY_HOST}:${DEPLOY_PATH}/
+            sudo rsync -avz --delete ./ ${DEPLOY_HOST}:${DEPLOY_PATH}/
           """
         }
       }
